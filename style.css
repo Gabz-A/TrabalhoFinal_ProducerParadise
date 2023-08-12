@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+html, body {
+    margin: 0;
+  }
+
+#title{
+    font-family: 'Comfortaa', cursive;
+    text-decoration: underline black;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    animation: fadeIn 500ms ease-in;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+}
+
+#titulo:link{
+    color:black
+}
+
+#titulo:visited{
+    color:black
+}
+
+#titulo:hover{
+    color:white;
+}
+
+#titulo:active{
+    color:green;
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.botao{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    border-radius: 9px;
+    margin: 8px;
+    margin-bottom: 15px;
+    display: inline-block;
+    background-color: yellow;
+    padding: 5px;
+    width: 150px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cabecalho{
+    background-image: linear-gradient(to bottom right, #FFFF33,#E6F72B,#CCEE22,#B3E61A,#99DD11,#80D509,#66CC00 );
+
+    
+
+}
+
+.texto, .texto:visited, #rede{
+    font-size: 20px;
+    flex-direction: row;
+    padding: 5px;
+    color: black;
+
+}
+
+#rede{
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto:hover{
+    flex-direction: row;
+    padding: 5px;
+    color: white;
+}
+
+.copy{
+margin-top:15px;
+}
+
+.copy2{
+margin: 0px;
+margin-bottom: 5px;
+}
+
+#pe{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: px; 
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #FFFF33,#E6F72B,#CCEE22,#B3E61A,#99DD11,#80D509,#66CC00 ); 
+
+}
+
+#tit_site{
+    font-family: 'Exo2', sans-serif;
+    text-decoration: underline black;
+    text-align: center;
+    margin: 15px;
+    font-size: 45px;
+}
+
+#frase_home{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin: 15px;
+    font-size: 27px; 
+}
+
+.link_home, .link_home:visited{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    margin-left: 18px;
+    margin-bottom: 25px;
+}
+
+.a_color, .a_color:visited{
+    color: black;
+}
+
+.a_color:hover{
+    color: rgb(161, 161, 161);
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 600px;
+    height: 375px;
+    border: solid greenyellow;
+}
+
+.frase_pag{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.tit_pag{
+    font-family: 'Comfortaa', cursive;
+    font-size: 55px;
+    text-decoration: underline black 3px;
+    margin-top: 18px;
+    margin: 10px; 
+}
+
+.img_pag{
+    margin: 10px;
+    width: 600px;
+    height: 375px;
+    border: solid greenyellow;  
+}
+
+.text{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 3px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 23px;
+}
+
+.subtit_pag{
+    font-family: 'Arimo', sans-serif;
+    font-size: 45px;
+    text-decoration: underline black 3px;
+    margin-top: 18px;
+    margin: 10px; 
+}
+
+.fonte{
+    font-family: 'Arimo', sans-serif;
+    margin-top: 18px;
+    margin: 10px; 
+}
+
+.list{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 3px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 23px;
+
+}
